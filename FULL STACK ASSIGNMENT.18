@@ -1,0 +1,31 @@
+1.
+ The major difference between these two is that a text file contains textual information in the form of alphabets, digits and special characters or symbols. 
+On the other hand,a binary file contains bytes or a compiled version of a text file.
+2.
+Text files are used to store data more user friendly. Binary files are used to store data more compactly. In the text file, 
+a special character whose ASCII value is 26 inserted after the last character to mark the end of file. 
+In the binary file no such character is present.
+3.
+To open a file in binary format, add 'b' to the mode parameter. 
+Hence the "rb" mode opens the file in binary format for reading, while the "wb" mode opens the file in binary format for writing.
+ Unlike text files, binary files are not human-readable. 
+When opened using any text editor, the data is unrecognizable.
+4.
+The advantage of using a with statement is that it is guaranteed to close the file no matter how the nested block exits.
+ If an exception occurs before the end of the block,
+ it will close the file before the exception is caught by an outer exception handler.
+5.
+Python provides three methods to read data from the input file. The readline method reads one line from the file and returns it as a string.
+ The string returned by readline will contain the newline character at the end.
+6.
+Random access to a file in C is carried with the help of functions like ftell(), fseek() and rewind().
+7.
+To convert native Python data types such as strings and numbers into a string of bytes and vice versa. 
+8.
+It can serialize pretty much any Python object, without having to add any extra code. 
+9.
+The shelve module in Python's standard library is a simple yet effective tool for persistent data storage,
+ when using a relational database solution is not required.
+10.
+The shelf dictionary has certain restrictions. Only string data type can be used as key in this special dictionary object, 
+whereas any picklable Python object can be used as value.
